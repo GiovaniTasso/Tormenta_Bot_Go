@@ -1,0 +1,3 @@
+telegram_token: "8159106255:AAGUZ351bbLmgGTTkNIopb5RJDgW0QfbfaM" # Obtenha com o @BotFather
+data_path: "./assets"            # Caminho para magias.json
+debug: true                      # Ativa logs detalhados

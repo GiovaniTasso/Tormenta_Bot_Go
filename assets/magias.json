@@ -1,0 +1,1758 @@
+[
+    {
+      "nome": "Adaga Mental",
+      "nivel": 1,
+      "escola": "Ilusão",
+      "tipo": "Arcana",
+      "execução": "Padrão",
+      "alcance": "Curto",
+      "alvo": "1 criatura",
+      "duração": "Instantânea",
+      "resistencia": "Vontade",
+      "descrição": "Você manifesta e dispara uma adaga imaterial contra a mente do alvo, que sofre 2d6 pontos de dano psíquico e fica atordoado por uma rodada. Se passar no teste de resistência, sofre apenas metade do dano e evita a condição. Uma criatura só pode ficar atordoada por esta magia uma vez por cena.",
+      "aprimoramentos": [
+        {
+          "custo": "+1 PM",
+          "descrição": "você lança a magia sem gesticular ou pronunciar palavras (o que permite lançar esta magia de armadura) e a adaga se torna invisível. Se o alvo falhar no teste de resistência, não percebe que você lançou uma magia contra ele."
+        },
+        {
+          "custo": "+2 PM",
+          "descrição": "muda a duração para um dia. Além do normal, você “finca” a adaga na mente do alvo. Enquanto a magia durar, você sabe a direção e localização do alvo, desde que ele esteja no mesmo mundo."
+        },
+        {
+          "custo": "+2 PM",
+          "descrição": "aumenta o dano em +1d6."
+        }
+      ]
+    },
+  {
+    "nome": "Abençoar Alimentos",
+    "nivel": 1,
+    "escola": "Transmutação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "alimento para 1 criatura",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Você purifica e abençoa uma porção de comida ou dose de bebida. Isso torna um alimento sujo, estragado ou envenenado próprio para consumo. Se consumido até o final da duração, o alimento oferece 5 PV temporários ou 1 PM temporário (além de quaisquer bônus que já oferecesse). Bônus de alimentação duram um dia e cada personagem só pode receber um bônus de alimentação por dia.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: o alimento é purificado (não causa efeitos nocivos se estragado/envenenado), mas não fornece bônus ao ser consumido."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta o número de alvos em +1."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda a duração para permanente, o alvo para 1 frasco com água e adiciona componente material (pó de prata no valor de T$ 5). Cria um frasco de água benta."
+      }
+    ]
+  },
+
+  {
+    "nome": "Acalmar Animal",
+    "nivel": 1,
+    "escola": "Encantamento",
+    "tipo": "Divino",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 animal",
+    "duração": "Cena",
+    "resistencia": "Vontade anula",
+    "descrição": "O animal fica prestativo em relação a você. Ele não fica sob seu controle, mas percebe suas palavras e ações da maneira mais favorável possível. Você recebe +10 nos testes de Adestramento e Diplomacia que fizer contra o animal. Se você ou seus aliados tomarem qualquer ação hostil contra o alvo, a magia é dissipada e ele retorna à atitude que tinha antes (ou piorada, de acordo com o mestre).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda o alcance para Médio."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda o alvo para 1 monstro ou espírito com Inteligência 1 ou 2."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta o número de alvos em +1."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda o alvo para 1 monstro ou espírito. Requer 3º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Açoite Flamejante",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Açoite de chamas criado em sua mão",
+    "duração": "Sustentada",
+    "resistencia": "Reflexos reduz parcial",
+    "descrição": "Um açoite de fogo surge em uma de suas mãos com a qual possa empunhar uma arma (essa mão fica ocupada pela duração da magia). Você pode usar uma ação padrão para causar 2d6 pontos de dano de fogo com o açoite em uma criatura em alcance curto e deixá-la em chamas e enredada enquanto estiver em chamas dessa forma.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda a execução para Movimento."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda o dano para 4d6. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda o dano para 6d6. Requer 3º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Alarme",
+    "nivel": 1,
+    "escola": "Abjuração",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Esfera com 9m de raio",
+    "duração": "1 dia",
+    "resistencia": "Nenhuma",
+    "descrição": "Você cria uma barreira protetora invisível que detecta qualquer criatura que tocar ou entrar na área protegida. Ao lançar a magia, você pode escolher quais criaturas podem entrar na área sem ativar seus efeitos. Alarme pode emitir um aviso telepático ou sonoro, decidido quando a magia é lançada.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda o alcance para Pessoal. A área é emanada a partir de você."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Além do normal, você também percebe qualquer efeito de adivinhação que seja usado dentro da área ou atravesse a área. Você pode fazer um teste oposto de Misticismo contra quem usou o efeito."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Muda a duração para um dia ou até ser descarregada e a resistência para Vontade anula. Adiciona efeito de paralisia e rastreamento."
+      }
+    ]
+  },
+
+  {
+    "nome": "Amedrontar",
+    "nivel": 1,
+    "escola": "Necromancia",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 animal ou humanoide",
+    "duração": "Cena",
+    "resistencia": "Vontade parcial",
+    "descrição": "O alvo é envolvido por energias sombrias e assustadoras. Se falhar na resistência, fica abalado por 1d4 rodadas.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Alvos que falhem na resistência ficam apavorados por 1d4+1 rodadas."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda o alvo para 1 criatura."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Afeta todos os alvos válidos a sua escolha dentro do alcance."
+      }
+    ]
+  },
+
+  {
+    "nome": "Área Escorregadia",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Quadrado de 3m ou 1 objeto",
+    "duração": "Cena",
+    "resistencia": "Reflexos",
+    "descrição": "Recobre uma superfície/objeto com substância gordurosa. Criaturas na área devem passar na resistência para não cair. Testes de Acrobacia (CD 10) para movimentação posterior.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta a área em +1 quadrado de 1,5m."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda a CD dos testes de Acrobacia para 15."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda a CD dos testes de Acrobacia para 20."
+      }
+    ]
+  },
+
+  {
+    "nome": "Arma Espiritual",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Você",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Invoca arma divina flutuante que contra-ataca automaticamente (2d6 de dano) quando você sofre ataques corpo a corpo. Dissipa-se se você morrer.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Fornece +1 na Defesa."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta bônus de Defesa em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Permite ataque ativo uma vez por rodada (ação livre). Requer 2º círculo."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda dano para essência. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Invoca duas armas, permitindo dois ataques/contra-ataques por rodada. Requer 3º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Arma Mágica",
+    "nivel": 1,
+    "escola": "Transmutação",
+    "tipo": "Universal",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 arma empunhada",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Arma torna-se mágica (+1 em ataques/dano) e usa atributo-chave de magias nos testes de ataque.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta bônus em +1 (limitado pelo círculo)."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Adiciona +1d6 de dano elemental (ácido, eletricidade, fogo ou frio)."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Aumenta dano elemental para +2d6."
+      }
+    ]
+  },
+
+  {
+    "nome": "Armadura Arcana",
+    "nivel": 1,
+    "escola": "Abjuração",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Você",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Cria película protetora invisível que fornece +5 na Defesa (cumulativo com magias, não com armaduras).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda execução para reação, criando escudo mágico contra um ataque específico."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta bônus na Defesa em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda duração para um dia."
+      }
+    ]
+  },
+
+  {
+    "nome": "Armamento da Natureza",
+    "nivel": 1,
+    "escola": "Transmutação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 arma primitiva/natural ou ataque desarmado",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Fortalece uma arma primitiva/natural ou ataque desarmado: aumenta dano em 1 passo, torna mágica e permite mudar tipo de dano (corte, impacto ou perfuração).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Fornece +1 em testes de ataque."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda execução para ação de movimento."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Aumenta bônus de ataque em +1."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Aumenta dano em mais um passo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Aviso",
+    "nivel": 1,
+    "escola": "Adivinhação",
+    "tipo": "Universal",
+    "execução": "Movimento",
+    "alcance": "Longo",
+    "alvo": "1 criatura",
+    "duração": "Instantânea",
+    "resistencia": "Nenhuma",
+    "descrição": "Envia efeito telepático com três opções: +5 em Iniciativa/Percepção (Alerta), mensagem de 25 palavras (Mensagem) ou revelar localização (Localização).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Multiplica alcance por 10."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Permite resposta à mensagem (25 palavras)."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Localização dura cena inteira."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Aumenta número de alvos em +1."
+      }
+    ]
+  },
+
+  {
+    "nome": "Bênção",
+    "nivel": 1,
+    "escola": "Encantamento",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Aliados",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Aliados recebem +1 em ataques e dano. Anula efeitos de Perdição.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda alvo para cadáver (preserva por 1 semana)."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta bônus em +1 (limitado pelo círculo)."
+      }
+    ]
+  },
+
+  {
+    "nome": "Caminhos da Natureza",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Criaturas escolhidas",
+    "duração": "1 dia",
+    "resistencia": "Nenhuma",
+    "descrição": "Aliados ganham +3m de deslocamento e ignoram terreno difícil em ambientes naturais.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: muda para alcance pessoal e alvo único (você), fornecendo +5 em Sobrevivência para orientação."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta CD de rastreamento contra alvos em +10."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta bônus de deslocamento para +6m."
+      }
+    ]
+  },
+
+  {
+    "nome": "Comando",
+    "nivel": 1,
+    "escola": "Encantamento",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 humanoide",
+    "duração": "1 rodada",
+    "resistencia": "Vontade anula",
+    "descrição": "Dá ordem irresistível com 5 opções: Fuga, Largar, Parar, Sentar ou Vir. Alvo obedece usando suas ações.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda alvo para 1 criatura."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta número de alvos em +1."
+      }
+    ]
+  },
+
+  {
+    "nome": "Compreensão",
+    "nivel": 1,
+    "escola": "Adivinhação",
+    "tipo": "Universal",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura ou texto",
+    "duração": "Cena",
+    "resistencia": "Vontade anula",
+    "descrição": "Entende textos/idiomas, comunica-se com criaturas e lê pensamentos básicos (com teste de Vontade para alvos involuntários).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda alcance para Curto."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alvo para criaturas escolhidas (comunicação múltipla)."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Vasculha pensamentos do alvo para informações (teste de Vontade). Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Permite falar/escrever qualquer idioma. Requer 3º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Concentração de Combate",
+    "nivel": 1,
+    "escola": "Adivinhação",
+    "tipo": "Arcana",
+    "execução": "Livre",
+    "alcance": "Pessoal",
+    "alvo": "Você",
+    "duração": "1 rodada",
+    "resistencia": "Nenhuma",
+    "descrição": "Rola dois dados em ataques, usando o melhor resultado.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Duração: Cena. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Inimigos usam pior resultado ao atacá-lo. Requer 3º círculo."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Afeta múltiplos alvos. Requer 4º círculo."
+      },
+      {
+        "custo": "+14 PM",
+        "descrição": "Imune a surpresa, +10 Defesa/Reflexos. Requer 5º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Conjurar Monstro",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Arcana",
+    "execução": "Completa",
+    "alcance": "Curto",
+    "alvo": "1 criatura conjurada",
+    "duração": "Sustentada",
+    "resistencia": "Nenhuma",
+    "descrição": "Invoca monstro energético Pequeno (20 PV, 2d4+2 dano) que obedece ordens: Mover, Atacar ou Lançar Magias.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Adiciona deslocamento de escalada/natação."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "+3m de deslocamento."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Dano elemental (ácido/fogo/frio/eletricidade)."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "+10 PV por categoria de tamanho."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Tamanho Médio (45 PV, 2d6+6 dano)."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Resistência 5 a dois tipos de dano."
+      },
+      {
+        "custo": "+4 PM",
+        "descrição": "Ataque em área (cone 6m)."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Tamanho Grande (75 PV, 4d6+10 dano). Requer 2º círculo."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Voo/Imunidades/Tamanho Enorme. Requer 4º círculo."
+      },
+      {
+        "custo": "+14 PM",
+        "descrição": "Tamanho Colossal (180 PV, 4d12+20 dano). Requer 5º círculo."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "[Ameaças] Invoca 4 kobolds Pequenos."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "[Ameaças] Kobolds reforçados. Requer 2º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Consagrar",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Longo",
+    "alvo": "Esfera com 9m de raio",
+    "duração": "1 dia",
+    "resistencia": "Nenhuma",
+    "descrição": "Enche a área com energia positiva. Cura máxima por efeitos de luz e dano aumentado em mortos-vivos. Anula Profanar.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Mortos-vivos sofrem –2 em testes e Defesa."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta penalidades para mortos-vivos em –1 (limitado pelo círculo)."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Duração permanente, execução 1 hora, componente material (T$ 1.000). Requer 4º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Controlar Plantas",
+    "nivel": 1,
+    "escola": "Transmutação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Quadrado com 9m de lado",
+    "duração": "Cena",
+    "resistencia": "Reflexos anula",
+    "descrição": "Vegetação enreda criaturas na área (terreno difícil). Vítimas podem se libertar com testes de Acrobacia/Atletismo.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: anima 1 planta sem causar dano."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Poda vegetação, transformando terreno difícil em normal."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Criaturas enredadas também ficam imóveis."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Permite comunicação com plantas e testes de Diplomacia."
+      }
+    ]
+  },
+
+  {
+    "nome": "Criar Elementos",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Elemento escolhido",
+    "duração": "Instantânea",
+    "resistencia": "Nenhuma",
+    "descrição": "Cria pequena porção de elemento (água, ar, fogo, terra). Água: enche recipiente Minúsculo. Ar: vento fraco. Fogo: chama iluminante. Terra: cubo de terra/pedra.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta quantidade do elemento (tamanho/área)."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Arremessa cubo/objeto, causando 2d4 de dano de impacto."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano de fogo em +1d6."
+      }
+    ]
+  },
+
+  {
+    "nome": "Curar Ferimentos",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura",
+    "duração": "Instantânea",
+    "resistencia": "Nenhuma",
+    "descrição": "Cura 2d8+2 PV. Truque: causa 1d8 de dano de luz em mortos-vivos (Vontade reduz à metade).",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta cura em +1d8+1."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Remove condição de fadiga."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alcance para Curto."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alvo para criaturas escolhidas."
+      }
+    ]
+  },
+
+  {
+    "nome": "Dardo Gélido",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 criatura",
+    "duração": "Instantânea",
+    "resistencia": "Fortitude parcial",
+    "descrição": "Causa 2d6 de dano de frio e deixa alvo lento por 1 rodada. Resistência reduz dano à metade e evita condição.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano em +1d6."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta número de alvos em +1 (limitado pelo círculo)."
+      }
+    ]
+  },
+
+  {
+    "nome": "Despedaçar",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 criatura ou objeto mundano Pequeno",
+    "duração": "Instantânea",
+    "resistencia": "Fortitude parcial",
+    "descrição": "Emite som agudo, causando 1d8+2 de dano de impacto (dobro em construtos/objetos) e atordoamento por 1 rodada (1 vez/cena).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta dano em +1d8+2."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alvo para objeto mundano Médio. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alvo para objeto mundano Grande. Requer 3º círculo."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Muda alvo para objeto mundano Enorme. Requer 4º círculo."
+      },
+      {
+        "custo": "+14 PM",
+        "descrição": "Muda alvo para objeto mundano Colossal. Requer 5º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alcance para pessoal e área para esfera de 6m."
+      }
+    ]
+  },
+
+  {
+    "nome": "Detectar Ameaças",
+    "nivel": 1,
+    "escola": "Adivinhação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Esfera com 18m de raio",
+    "duração": "Cena, até ser descarregada",
+    "resistencia": "Nenhuma",
+    "descrição": "Detecta criaturas hostis ou armadilhas na área. Teste de Percepção revela origem, direção e distância.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Revela raça/espécie e poder da criatura (aura tênue, moderada, poderosa ou avassaladora)."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Imune a surpresa contra perigos detectados e +5 em resistência contra armadilhas. Requer 2º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Detonação Congelante",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Esfera de 6m",
+    "duração": "Instantânea",
+    "resistencia": "Fortitude parcial",
+    "descrição": "Onda de frio causa 2d6 de dano e enreda/imobiliza criaturas por 1d4 rodadas. Resistência reduz dano à metade e enreda por 1 rodada.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano em +1d6."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda duração para sustentada, criando aura de frio constante. Requer 2º círculo."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Disfarce Ilusório",
+    "nivel": 1,
+    "escola": "Ilusão",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Você",
+    "duração": "Cena",
+    "resistencia": "Vontade desacredita",
+    "descrição": "Muda aparência do alvo, incluindo equipamento. +10 em Enganação para disfarce. Não concede habilidades ou altera funcionalidade de equipamentos.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: muda alcance para toque, alvo para 1 criatura e duração para 1 semana. Efeito inofensivo e persistente."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda alcance para curto e alvo para 1 objeto. +10 em Enganação para falsificação."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alcance para curto e alvo para 1 criatura. Criaturas involuntárias podem resistir com Vontade."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Inclui odores e sensações. Bônus em Enganação para disfarce aumenta para +20."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Muda alcance para curto e alvo para criaturas escolhidas. Cada criatura pode ter aparência diferente. Requer 2º círculo."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Disparo Gélido",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Médio",
+    "alvo": "1 criatura",
+    "duração": "Instantânea",
+    "resistencia": "Fortitude reduz à metade",
+    "descrição": "Dispara dardo de neve/gelo, causando 2d8+2 de dano de frio.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano em +1d8+1."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda resistência para Fortitude parcial. Falha deixa alvo lento até o final da cena."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Enfeitiçar",
+    "nivel": 1,
+    "escola": "Encantamento",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 humanoide",
+    "duração": "Cena",
+    "resistencia": "Vontade anula",
+    "descrição": "O alvo fica enfeitiçado. Ações hostis dissipam a magia. Alvos hostis ou em combate recebem +5 na resistência.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Sugere uma ação aceitável ao alvo. A magia termina após a ação ser executada."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda o alvo para 1 espírito ou monstro. Requer 3º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Afeta todos os alvos dentro do alcance."
+      }
+    ]
+  },
+
+  {
+    "nome": "Escudo da Fé",
+    "nivel": 1,
+    "escola": "Abjuração",
+    "tipo": "Divina",
+    "execução": "Reação",
+    "alcance": "Curto",
+    "alvo": "1 criatura",
+    "duração": "1 turno",
+    "resistencia": "Nenhuma",
+    "descrição": "Escudo místico concede +2 na Defesa ao alvo.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda execução para ação padrão, alcance para toque e duração para cena."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Concede camuflagem leve contra ataques à distância."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta bônus na Defesa em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Cria conexão mística, transferindo metade do dano ao conjurador. Requer 2º círculo."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Muda duração para um dia. Requer 2º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Escuridão",
+    "nivel": 1,
+    "escola": "Necromancia",
+    "tipo": "Universal",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 objeto",
+    "duração": "Cena",
+    "resistencia": "Vontade anula",
+    "descrição": "Objeto emana sombras em 6m de raio, concedendo camuflagem leve por escuridão leve. Anula Luz.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta área da escuridão em +1,5m de raio."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Concede camuflagem total por escuridão total."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alvo para 1 criatura e resistência para Fortitude parcial. Cega o alvo. Requer 2º círculo."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Muda duração para um dia."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alcance para pessoal e alvo para você. Concede +10 em Furtividade e camuflagem leve. Requer 2º círculo."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Explosão de Chamas",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Cone de 6m",
+    "duração": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descrição": "Causa 2d6 de dano de fogo em criaturas na área.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: muda alcance para curto e alvo para 1 objeto. Acende chamas sem causar dano."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano em +1d6."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda resistência para Reflexos parcial. Falha deixa alvo em chamas."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Geiser Cáustico",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Arcana",
+    "execução": "Ação padrão",
+    "alcance": "Médio",
+    "alvo": "Cilindro com 3m de diâmetro e 3m de altura",
+    "duração": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descrição": "Explosão de ácido causa 2d6 de dano em criaturas e objetos na área.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano em +1d6."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Transforma área em terreno difícil e causa dano contínuo até o final da cena."
+      }
+    ]
+  },
+
+  {
+    "nome": "Hipnotismo",
+    "nivel": 1,
+    "escola": "Encantamento",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 animal ou humanoide",
+    "duração": "1d4 rodadas",
+    "resistencia": "Vontade anula",
+    "descrição": "Deixa o alvo fascinado. Alvos hostis ou em combate recebem +5 na resistência.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: muda duração para 1 rodada e efeito para pasmo (1 vez/cena)."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Alvos que passem na resistência não percebem a magia."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alvo para animais ou humanoides escolhidos."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda duração para sustentada."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Afeta espíritos e monstros. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Afeta construtos, espíritos, monstros e mortos-vivos. Requer 3º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Imagem Espelhada",
+    "nivel": 1,
+    "escola": "Ilusão",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Você",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Cria três cópias ilusórias que confundem inimigos. Você recebe +6 na Defesa, reduzindo em 2 para cada cópia destruída.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta número de cópias em +1 e bônus na Defesa em +2."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Cópias destruídas emitem clarão, ofuscando o atacante por 1 rodada. Requer 2º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Infligir Ferimentos",
+    "nivel": 1,
+    "escola": "Necromancia",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura",
+    "duração": "Instantânea",
+    "resistencia": "Fortitude reduz à metade",
+    "descrição": "Causa 2d8+2 de dano de trevas (ou cura 2d8+2 PV em mortos-vivos). Anula Curar Ferimentos.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Alvo que falhar na resistência fica fraco pela cena."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta dano em +1d8+1."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda resistência para nenhuma e permite ataque corpo a corpo como parte da execução."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alcance para curto e alvo para criaturas escolhidas."
+      }
+    ]
+  },
+
+  {
+    "nome": "Jato Corrosivo",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Linha de 9m",
+    "duração": "Instantânea",
+    "resistencia": "Reflexos reduz à metade",
+    "descrição": "Causa 2d6 de dano de ácido. Construtos e objetos sofrem +1 de dano por dado.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano em +1d6."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda resistência para Reflexos parcial. Falha deixa alvo vulnerável."
+      }
+    ]
+  },
+
+  {
+    "nome": "Leque Cromático",
+    "nivel": 1,
+    "escola": "Ilusão",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Cone de 4,5m",
+    "duração": "Instantânea",
+    "resistencia": "Vontade parcial",
+    "descrição": "Cone de luzes brilhantes atordoa e ofusca animais e humanoides. Não afeta criaturas cegas.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Criaturas afetadas ficam vulneráveis pela cena."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Afeta espíritos e monstros. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Afeta construtos, espíritos, monstros e mortos-vivos. Requer 3º círculo."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Luz",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Universal",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 objeto",
+    "duração": "Cena",
+    "resistencia": "Vontade anula",
+    "descrição": "Objeto emite luz em 6m de raio. Anula Escuridão.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta área iluminada em +3m de raio."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda duração para um dia."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda duração para permanente com componente material (T$ 50). Requer 2º círculo."
+      },
+      {
+        "custo": "+0 PM",
+        "descrição": "(Apenas Arcanos) Muda alvo para 1 criatura, ofuscando-a pela cena."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "(Apenas Arcanos) Cria 4 globos de luz flutuantes. Requer 2º círculo."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "(Apenas Divinos) Luz solar: aliados estabilizam, inimigos ficam ofuscados. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "(Apenas Divinos) Alvo recebe halo de luz (+10 Diplomacia, redução de trevas 10). Requer 2º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Névoa",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Universal",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Nuvem com 6m de raio e 6m de altura",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Cria névoa espessa, fornecendo camuflagem leve (1,5m) e total (3m). Vento forte dispersa a névoa.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Funciona sob a água, criando nuvem de tinta."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Criaturas escolhidas enxergam através da névoa. Requer 2º círculo."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Névoa tem cheiro horrível, causando enjoo em criaturas próximas."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Névoa cáustica causa 2d4 de dano de ácido por rodada."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Aumenta dano de ácido em +2d4."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Névoa espessa reduz deslocamento para 3m e penaliza ataques/dano."
+      }
+    ]
+  },
+
+  {
+    "nome": "Nuvem Tempestuosa",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Arcana",
+    "execução": "Ação padrão",
+    "alcance": "Curto",
+    "alvo": "Nuvem com 3m de diâmetro",
+    "duração": "Sustentada",
+    "resistencia": "Fortitude reduz à metade",
+    "descrição": "Cria nuvem carregada de eletricidade, causando 2d8 de dano elétrico a criaturas no mesmo espaço. Pode mover a nuvem 6m por ação de movimento.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano em +1d8."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Criaturas que falharem na resistência ficam atordoadas por 1 rodada."
+      }
+    ]
+  },
+
+  {
+    "nome": "Orientação",
+    "nivel": 1,
+    "escola": "Adivinhação",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 criatura",
+    "duração": "1 rodada",
+    "resistencia": "Nenhuma",
+    "descrição": "Alvo rola dois dados no próximo teste de perícia, ficando com o melhor resultado.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Duração: Cena. Escolha um atributo para aplicar o efeito em testes de perícia baseados nele. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Escolha entre atributos físicos (For, Des, Con) ou mentais (Int, Sab, Car). Requer 3º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alvo para criaturas escolhidas. Requer 3º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Perdição",
+    "nivel": 1,
+    "escola": "Necromancia",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Criaturas escolhidas",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Alvos recebem –1 em ataques e dano. Anula Bênção.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta penalidades em –1 (limitado pelo círculo)."
+      }
+    ]
+  },
+
+  {
+    "nome": "Primor Atlético",
+    "nivel": 1,
+    "escola": "Transmutação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Alvo recebe +9m de deslocamento e +10 em testes de Atletismo.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Bônus adicional de +20 em testes de Atletismo para saltar."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Alvo pode escalar paredes e tetos sem testes de Atletismo."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda execução para ação de movimento, alcance para pessoal e alvo para você. Salto alto com ataque corpo a corpo aprimorado."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Alvo rola dois dados em testes de perícia baseados em For, Des ou Con. Requer 2º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Profanar",
+    "nivel": 1,
+    "escola": "Necromancia",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Longo",
+    "alvo": "Esfera com 9m de raio",
+    "duração": "1 dia",
+    "resistencia": "Nenhuma",
+    "descrição": "Enche a área com energia negativa, maximizando dano de trevas e cura em mortos-vivos. Anula Consagrar.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Mortos-vivos na área recebem +2 na Defesa e +2 em testes."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta bônus para mortos-vivos em +1 (limitado pelo círculo)."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Duração permanente, execução 1 hora, componente material (T$ 1.000). Requer 4º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Proteção Divina",
+    "nivel": 1,
+    "escola": "Abjuração",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Concede +2 em testes de resistência ao alvo.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta bônus em +1."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda execução para reação, alcance para curto e duração para 1 rodada. Alvo recebe +5 no próximo teste de resistência."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alvo para área de esfera com 3m de raio. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Torna alvo imune a efeitos mentais e de medo. Requer 3º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Queda Suave",
+    "nivel": 1,
+    "escola": "Transmutação",
+    "tipo": "Arcana",
+    "execução": "Reação",
+    "alcance": "Curto",
+    "alvo": "1 criatura ou objeto Grande ou menor",
+    "duração": "Até chegar ao solo ou cena, o que vier primeiro",
+    "resistencia": "Nenhuma",
+    "descrição": "Reduz a velocidade da queda para 18m por rodada, evitando dano. Também reduz dano de projéteis pela metade.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: muda alvo para objeto Minúsculo. Permite levitar o alvo até 4,5m."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alvo para até 10 criaturas ou objetos."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta categoria de tamanho do alvo em uma."
+      }
+    ]
+  },
+
+  {
+    "nome": "Queda Suave",
+    "nivel": 1,
+    "escola": "Transmutação",
+    "tipo": "Arcana",
+    "execução": "Reação",
+    "alcance": "Curto",
+    "alvo": "1 criatura ou objeto Grande ou menor",
+    "duração": "Até chegar ao solo ou cena, o que vier primeiro",
+    "resistencia": "Nenhuma",
+    "descrição": "Reduz a velocidade da queda para 18m por rodada, evitando dano. Também reduz dano de projéteis pela metade.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: muda alvo para objeto Minúsculo. Permite levitar o alvo até 4,5m."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alvo para até 10 criaturas ou objetos."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta categoria de tamanho do alvo em uma."
+      }
+    ]
+  },
+
+  {
+    "nome": "Resistência a Energia",
+    "nivel": 1,
+    "escola": "Abjuração",
+    "tipo": "Universal",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Concede redução de dano 10 contra um tipo de energia escolhido (ácido, eletricidade, fogo, frio, luz ou trevas).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta redução de dano em +5."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda duração para um dia. Requer 2º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alcance para curto e alvo para criaturas escolhidas. Requer 3º círculo."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Concede redução de dano contra todos os tipos de energia listados. Requer 3º círculo."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Concede imunidade a um tipo de energia. Requer 4º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Santuário",
+    "nivel": 1,
+    "escola": "Abjuração",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura",
+    "duração": "Cena",
+    "resistencia": "Vontade anula",
+    "descrição": "Protege o alvo de ações hostis. Criaturas que falharem na resistência perdem a ação e não podem tentar novamente na cena.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Escolha um tipo de criatura (animal, construto ou morto-vivo). Alvo não pode ser percebido por criaturas não inteligentes do tipo escolhido."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Protege o alvo contra efeitos de área. Criaturas que tentarem atacar a área devem passar na resistência."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Seta Infalível de Talude",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Médio",
+    "alvo": "Criaturas escolhidas",
+    "duração": "Instantânea",
+    "resistencia": "Nenhuma",
+    "descrição": "Lança duas setas de energia, causando 1d4+1 de dano de essência cada. Pode dividir os alvos.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda setas para lanças, causando 1d8+1 de dano cada. Requer 2º círculo."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta número de setas/lanças para três."
+      },
+      {
+        "custo": "+4 PM",
+        "descrição": "Aumenta número de setas/lanças para cinco. Requer 2º círculo."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Aumenta número de setas/lanças para dez. Requer 4º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Sono",
+    "nivel": 1,
+    "escola": "Encantamento",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 humanoide",
+    "duração": "Cena",
+    "resistencia": "Vontade parcial",
+    "descrição": "Cansaço místico faz o alvo ficar inconsciente ou exausto (1 rodada) e fatigado (1d4 rodadas).",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Alvos que falhem na resistência ficam exaustos por 1d4+1 rodadas."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alvo para criatura."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Afeta todos os alvos válidos dentro do alcance."
+      }
+    ]
+  },
+
+  {
+    "nome": "Suporte Ambiental",
+    "nivel": 1,
+    "escola": "Abjuração",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura",
+    "duração": "1 dia",
+    "resistencia": "Nenhuma",
+    "descrição": "Facilita sobrevivência em ambientes hostis: imunidade a calor/frio extremos, respiração na água e proteção contra fumaça.",
+    "aprimoramentos": [
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alcance para curto e alvo para criaturas escolhidas."
+      }
+    ]
+  },
+
+  {
+    "nome": "Teia",
+    "nivel": 1,
+    "escola": "Convocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "Cubo com 6m de lado",
+    "duração": "Cena",
+    "resistencia": "Reflexos anula",
+    "descrição": "Cria teias pegajosas que enredam criaturas na área. Área é terreno difícil e inflamável.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Criaturas enredadas também ficam imóveis."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Magia afeta criaturas na área novamente no início de seus turnos. Requer 2º círculo."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta área em +1 cubo de 1,5m."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Toque Chocante",
+    "nivel": 1,
+    "escola": "Evocação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 criatura",
+    "duração": "Instantânea",
+    "resistencia": "Fortitude reduz à metade",
+    "descrição": "Causa 2d8+2 de dano de eletricidade. Alvos com armadura de metal sofrem –5 na resistência.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta dano em +1d8+1."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda resistência para nenhuma e permite ataque corpo a corpo como parte da execução."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda alcance para pessoal e alvo para área de esfera com 6m de raio."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Tranca Arcana",
+    "nivel": 1,
+    "escola": "Abjuração",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "1 objeto Grande ou menor",
+    "duração": "Permanente",
+    "resistencia": "Nenhuma",
+    "descrição": "Tranca portas, baús ou outros objetos, aumentando a CD para abri-los em +10. Componente material: chave de bronze (T$ 25).",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: muda alcance para curto. Abre ou fecha objetos de tamanho Grande ou menor."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda alcance para curto e duração para instantânea. Abre objetos trancados ou presos."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Aumenta CD para abrir o alvo em +5."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alvo para 1 objeto de qualquer tamanho. Requer 3º círculo."
+      }
+    ]
+  },
+
+  {
+    "nome": "Tranquilidade",
+    "nivel": 1,
+    "escola": "Encantamento",
+    "tipo": "Divina",
+    "execução": "Padrão",
+    "alcance": "Curto",
+    "alvo": "1 animal ou humanoide",
+    "duração": "Cena",
+    "resistencia": "Vontade parcial",
+    "descrição": "Emana serenidade, mudando a atitude do alvo para indiferente e impedindo ações agressivas. Ações hostis dissipam a magia.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda alvo para 1 criatura."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Aumenta número de alvos em +1."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alcance para médio e alvo para criaturas escolhidas. Requer 3º círculo."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Transmutar Objetos",
+    "nivel": 1,
+    "escola": "Transmutação",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Toque",
+    "alvo": "Matéria-prima (madeira, rochas, ossos)",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Transforma matéria-prima em objeto de tamanho Pequeno ou menor (preço máximo T$ 25). Objeto reverte ao final da cena.",
+    "aprimoramentos": [
+      {
+        "custo": "+0 PM",
+        "descrição": "Truque: muda alvo para objeto Mínusculo. Permite alterar propriedades físicas (cor, temperatura, reparos)."
+      },
+      {
+        "custo": "+1 PM",
+        "descrição": "Muda alvo para 1 construto e cura 2d8 PV. Cura adicional de +1d8 por 2 PM extras."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta limite de tamanho do objeto em uma categoria."
+      },
+      {
+        "custo": "+3 PM",
+        "descrição": "Aumenta preço máximo do objeto em fator de x10."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Cura todos os PV de um objeto mundano. Requer 3º círculo."
+      },
+      {
+        "custo": "+9 PM",
+        "descrição": "Afeta itens mágicos."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Visão Mística",
+    "nivel": 1,
+    "escola": "Adivinhação",
+    "tipo": "Universal",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Você",
+    "duração": "Cena",
+    "resistencia": "Nenhuma",
+    "descrição": "Permite detectar auras mágicas em alcance médio e identificar habilidades mágicas de criaturas.",
+    "aprimoramentos": [
+      {
+        "custo": "+1 PM",
+        "descrição": "Concede visão no escuro."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Muda duração para um dia."
+      },
+      {
+        "custo": "+2 PM",
+        "descrição": "Permite enxergar objetos e criaturas invisíveis."
+      }
+    ]
+  },
+
+
+  {
+    "nome": "Vitalidade Fantasma",
+    "nivel": 1,
+    "escola": "Necromancia",
+    "tipo": "Arcana",
+    "execução": "Padrão",
+    "alcance": "Pessoal",
+    "alvo": "Você",
+    "duração": "Instantânea",
+    "resistencia": "Nenhuma",
+    "descrição": "Suga energia vital, concedendo 2d10 PV temporários. PV temporários desaparecem ao final da cena.",
+    "aprimoramentos": [
+      {
+        "custo": "+2 PM",
+        "descrição": "Aumenta PV temporários em +1d10."
+      },
+      {
+        "custo": "+5 PM",
+        "descrição": "Muda alvo para área de esfera com 6m de raio. Causa 1d10 de dano de trevas e concede PV temporários iguais ao dano causado. Requer 2º círculo."
+      }
+    ]
+  }
+
+
+  ]
